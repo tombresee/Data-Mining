@@ -2,7 +2,7 @@
 
 
 Data Mining
-###################################################
+###############
 
 
 
@@ -19,6 +19,7 @@ The following github repo contains detailed information about Data Mining
 |
 
 
+
 .. contents::
 
 .. section-numbering::
@@ -26,9 +27,6 @@ The following github repo contains detailed information about Data Mining
 
 |
 |
-|
-
-
 
 
 
@@ -59,7 +57,6 @@ OLAP - Online Analytical Processing
 
 
 |
-|
 
 
 
@@ -87,10 +84,14 @@ Book
 
 
 
+
 Terms to Research
 =====================
 
 * OLAP
+* Association
+* Data Warehouse
+* Data Cubing 
 * Co-occurrence analysis
 * Correlation Analysis
 * Causal Inference
@@ -99,6 +100,37 @@ Terms to Research
 
 
 |
+|
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
