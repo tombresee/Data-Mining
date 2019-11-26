@@ -1,21 +1,18 @@
 
 
+
 Data Mining
 ###################################################
 
 
 
-
-
 |
 |
-
 
 
 **What is this ?**  
 
 The following github repo contains detailed information about Data Mining
-
 
 
 |
@@ -47,9 +44,6 @@ Links
 
 
 
-* `Apache Spark Documentation <https://spark.apache.org/docs/latest/>`_
-  — the main documentation link 
-
 * `Gitbook Internals of Apache Spark   <https://jaceklaskowski.gitbooks.io/mastering-apache-spark/>`_
   — really really good overview of how Apache Spark functions
 
@@ -59,15 +53,12 @@ Links
 
 
 
-Databricks
+Book
 -------------
 
 
-* `Documentation <https://docs.databricks.com/>`_
-  — the main documentation link for Databricks
-
-* `Forum for Questions <https://forums.databricks.com/index.html>`_
-  — questions and answers
+* `Ch 1 <http://umich.summon.serialssolutions.com/2.0.0/link/0/eLvHCXMwpV1LS8NAEB60uShCfdJorUH0mLLZ5ulFtG0Qsbei3pZNdiPFGsSk4s93No82VNCDl0DIkmVnk2_n-Q0AXcODSPFIz3LT6i_exBwvlRPNHDheYKoOccpRMHqgN6FzHw4aBENFvLBKUuzXSLmKpKoXzV54WmVb9stKgGtRoDMqjUTVV2vUwVO9BRrC_HiydL8Q1IMQnAuSHXVq2V5QMUAt761t2ObZK2IN4lCeNQKZTV1UFY8sssaZFLahjv-WmSgF5VO96J9kj_9f5C5oUlVG7MGGTPehXfeDMCp4OICLEc-5MSlaTlwZw7IgMjN4KoxpTRWbHcJTOJ4O78yqC4PJla6GP5IvRBLFqiU9SbwgRgVQkCiKJWKBi7htDyLuRZaVSIvjQD9Rp35CXdRMfE9GqAMdwQ5X-fppXtT1iQ4YMnY46h6CBNK3Len5Duc84q4XC4k2JtfhvCF79jkvxJSx1Qb5xNOhW24Jey-pOdYfn9XyZE0ps_HtkKKZatHfRpSy1aFT7vByCrTB0G51qa3D5fojllFGmO-o8K-i0ndY_pUf_znJCWyVrmrXJEEXWvnHQp6CVux9DzbNx-de9f1-A6nuAfs>`_
+  — Chapter 1 of Data mining: concepts and techniques. Han, J., Pei, J. and Kamber, M. (3rd Edition)
 
 
 
@@ -78,31 +69,13 @@ Databricks
 
 
 
-
-|
-
-
-
-
-Why Apache Spark ? 
+Add
 =====================
 
-* Runs workloads 100x+ faster than conventional approaches
-* Distributed processing
+* a
+* b
+* c
 
-
-
-
-
-|
-
-Our Approach
-==============
-
-* Research the basics of Apache Spark  
-* Research SparkSQL and pyspark API libraries  
-* Focus on building 
-|
 
 
 
@@ -110,7 +83,7 @@ Our Approach
 
 
 
-**Jupyter Notebooks ( < - - exciting part)**
+Notebooks
 =========================================
 
 As progression is made step-by-step, I will upload pertinent jupyter notebooks.  This is the key to really understanding this complicated approach. 
@@ -180,6 +153,7 @@ These are bit more complex, include things like Delta Lake, etc.
 |
 |
 |
+
 
 
 References
