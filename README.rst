@@ -46,6 +46,11 @@ Links
 * `Gitbook Internals of Apache Spark   <https://jaceklaskowski.gitbooks.io/mastering-apache-spark/>`_
   — really really good overview of how Apache Spark functions
 
+* `Internet Map <https://internet-map.net/>`_
+
+   
+*
+
 
 
 |
@@ -97,8 +102,17 @@ Terms to Research
 * Causal Inference
 * Basket Data Analysis
 * Catalog Design
+* Advertisement
 * Search Engine Log Analysis
-
+* Clustering 
+* Network Analysis and 'Community'
+* Topic Extraction
+* Ranking
+* Learning to Rank
+* Network Analysis - PageRank
+* Trend Analysis
+* Event Detection
+* 
 
 
 
@@ -159,22 +173,6 @@ The following are working jupyter notebooks as I dive deeper into Apache Spark, 
 
 |
 
-
-
-* `Databricks 101 <https://nbviewer.jupyter.org/github/TomBresee/The_Spark_Genome_Project/blob/master/ENTER/notebooks/001-pyspark.ipynb>`_
-  — for introductory example of how to create RDD datasets and get familiar with the Databricks platform
-
-
-
-|
-
-
-* `Hail running on Apache Spark running on Ubuntu <https://nbviewer.jupyter.org/github/TomBresee/The_Spark_Genome_Project/blob/master/ENTER/working_notebooks/HAIL%20on%20Apache%20Spark.ipynb>`_
-  — successful implementation of Hail 0.2 on Apache Spark (Ubuntu-based), working example (notebook kept in the 'working notebooks' sub-folder under /ENTER)
-
-
-
-|
 
 
 * `Hail running on Databricks Apache Spark written in Scala <https://nbviewer.jupyter.org/github/TomBresee/The_Spark_Genome_Project/blob/master/ENTER/working_notebooks/hail_databricks.ipynb>`_
