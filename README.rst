@@ -3,7 +3,7 @@ Data Mining
 
 :Author: Tom Bresee
 :Version: $Revision: 5801 $
-:Copyright: This document has been placed in the public domain.
+:Topic: Data Mining specifics
 
 .. contents::
 
