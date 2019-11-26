@@ -22,19 +22,10 @@
 
 
 
-
-
-
-
-
-"""""""""""""
-Data Mining
-"""""""""""""
-
 |
 
 .. contents:: Overview
-   :depth: 4
+   :depth: 3
 
 
 |
