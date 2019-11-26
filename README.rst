@@ -1,320 +1,404 @@
+A ReStructuredText Primer
+=========================
 
+:Author: Richard Jones
+:Version: $Revision: 5801 $
+:Copyright: This document has been placed in the public domain.
 
-=====
-Title
-=====
+.. contents::
 
 
+The text below **contains** links that look like "(quickref__)".  These
+are relative links that point to the `Quick reStructuredText`_ user
+reference.  If these links don't work, please refer to the `master
+quick reference`_ document.
 
+__
+.. _Quick reStructuredText: quickref.html
+.. _master quick reference:
+   http://docutils.sourceforge.net/docs/user/rst/quickref.html
 
-|
+.. Note:: This document is an informal introduction to
+   reStructuredText.  The `What Next?`_ section below has links to
+   further resources, including a formal reference.
 
-.. contents:: Overview
-   :depth: 3
 
+Structure
+---------
 
-|
-|
+From the **outset**, let me say that "Structured Text" is probably a bit
+of a misnomer.  It's more like "Relaxed Text" that uses certain
+consistent patterns.  These patterns are interpreted by a HTML
+converter to produce "Very Structured Text" that can be used by a web
+browser.
 
+The most basic pattern recognised is a **paragraph** (quickref__).
+That's a chunk of text that is separated by blank lines (one is
+enough).  Paragraphs must have the same indentation -- that is, line
+up at their left edge.  Paragraphs that start indented will result in
+indented quote paragraphs. For example::
 
------
-CAST
------
+  This is a paragraph.  It's quite
+  short.
 
-|
+     This paragraph will result in an indented block of
+     text, typically used for quoting other text.
 
+  This is another one.
 
-~~~~~~~~
-CAST
-~~~~~~~~
+Results in:
 
+  This is a paragraph.  It's quite
+  short.
 
-* `Enter coursera course here <https://www.coursera.org/learn/python-databases/home/welcome>`_ — welcome to the course
-  
+     This paragraph will result in an indented block of
+     text, typically used for quoting other text.
 
-|
+  This is another one.
 
-* `Course Materiasl <https://www.py4e.com/materials>`_ — includes the code files as well 
+__ quickref.html#paragraphs
 
-     
-|
 
-* `Book <https://www.py4e.com/book>`_ — course book 
+Text styles
+-----------
 
-|
+(quickref__)
 
+__ quickref.html#inline-markup
 
-* `ASCII <https://www.petefreitag.com/cheatsheets/ascii-codes/>`_ — ASCII cheat sheet  
-  
+Inside paragraphs and other bodies of text, you may additionally mark
+text for *italics* with "``*italics*``" or **bold** with
+"``**bold**``".  This is called "inline markup".
 
-|
+If you want something to appear as a fixed-space literal, use
+"````double back-quotes````".  Note that no further fiddling is done
+inside the double back-quotes -- so asterisks "``*``" etc. are left
+alone.
 
-* `Unicode <http://www.unicode.org/charts/>`_  — unicode charts 
-  
+If you find that you want to use one of the "special" characters in
+text, it will generally be OK -- reStructuredText is pretty smart.
+For example, this lone asterisk * is handled just fine, as is the
+asterisk in this equation: 5*6=30.  If you actually
+want text \*surrounded by asterisks* to **not** be italicised, then
+you need to indicate that the asterisk is not special.  You do this by
+placing a backslash just before it, like so "``\*``" (quickref__), or
+by enclosing it in double back-quotes (inline literals), like this::
 
-|
+    ``*``
 
-* `UTF 8  <https://en.wikipedia.org/wiki/UTF-8>`_ - UTF-8
+__ quickref.html#escaping
 
-|
+.. Tip:: Think of inline markup as a form of (parentheses) and use it
+   the same way: immediately before and after the text being marked
+   up.  Inline markup by itself (surrounded by whitespace) or in the
+   middle of a word won't be recognized.  See the `markup spec`__ for
+   full details.
 
-* `Dr Chuck  <http://www.dr-chuck.com/>`_ - Python King 
-  
+__ ../../ref/rst/restructuredtext.html#inline-markup
 
-|
 
-
-
-
-* `Neural Lander <https://www.caltech.edu/about/news/neural-lander-uses-ai-land-drones-smoothly>`_ — Caltech's use of AI to land drones smoothly  
-
-  *  `paper  <https://authors.library.caltech.edu/92658/1/1811.08027.pdf>`_  — ``Neural Lander: Stable Drone Landing Control using Learned Dynamics``
-  *  `video1 <https://youtu.be/6bfxPxg9rqk>`_
-
-|
-|
-
-
-
-
-
-
-----------------------
-Subsection 1 (Level 2)
-----------------------
-
-abc
-
-
-Level 3
---------------------------
-
-abc
-
-
-|
-|
-
-
-
-
-
-=========
-Examples
-=========
-
-
-
-
-------
-Images
-------
-
-Add an image with:
-
-.. image:: screenshots/file.png
-   :height: 100
-   :width: 200
-   :alt: alternate text
-
-
-
-You can inline an image or other directive with the |customsub| command.
-
-
-.. |customsub| image:: image/image.png
-              :alt: (missing image text)
-
-
-|
-|
-
-
------
 Lists
 -----
 
-- Bullet are made like this
-- Point levels must be consistent
-    * Sub-bullets
-        + Sub-sub-bullets
-- Lists
+Lists of items come in three main flavours: **enumerated**,
+**bulleted** and **definitions**.  In all list cases, you may have as
+many paragraphs, sublists, etc. as you want, as long as the left-hand
+side of the paragraph or whatever aligns with the first line of text
+in the list item.
 
-Term
-    Definition for term
-Term2
-    Definition for term 2
+Lists must always start a new paragraph -- that is, they must appear
+after a blank line.
 
-:List of Things:
-    item1 - these are 'field lists' not bulleted lists
-    item2
-    item 3
+**enumerated** lists (numbers, letters or roman numerals; quickref__)
+  __ quickref.html#enumerated-lists
 
-:Something: single item
-:Someitem: single item
-:Someitem: t mon
+  Start a line off with a number or letter followed by a period ".",
+  right bracket ")" or surrounded by brackets "( )" -- whatever you're
+  comfortable with.  All of the following forms are recognised::
 
+    1. numbers
 
-|
-|
+    A. upper-case letters
+       and it goes over many lines
 
+       with two paragraphs and all!
 
+    a. lower-case letters
 
+       3. with a sub-list starting at a different number
+       4. make sure the numbers are in the correct sequence though!
 
------------------
-Preformatted text
------------------
+    I. upper-case roman numerals
 
-A code example prefix must always end with double colon like it's presenting something::
+    i. lower-case roman numerals
 
- ord()
-     ord('H')
-     8 bits of memory = byte
-     ord():  what is the numeric value of a simple ASCII character 
-     print(ord('H'))
+    (1) numbers again
 
+    1) and again
 
- unicode
+  Results in (note: the different enumerated list styles are not
+  always supported by every web browser, so you may not get the full
+  effect here):
 
+  1. numbers
 
- UTF-8
-     variable length
+  A. upper-case letters
+     and it goes over many lines
 
+     with two paragraphs and all!
 
+  a. lower-case letters
 
+     3. with a sub-list starting at a different number
+     4. make sure the numbers are in the correct sequence though!
 
- a
+  I. upper-case roman numerals
 
+  i. lower-case roman numerals
 
-Now we're out of the preformatted block.
+  (1) numbers again
 
+  1) and again
 
-|
-|
+**bulleted** lists (quickref__)
+  __ quickref.html#bullet-lists
 
+  Just like enumerated lists, start the line off with a bullet point
+  character - either "-", "+" or "*"::
 
+    * a bullet point using "*"
 
-------------
-Code blocks
-------------
+      - a sub-list using "-"
 
-There are three equivalents: ``code``, ``sourcecode``, and ``code-block``.
+        + yet another sub-list
 
+      - another item
 
+  Results in:
 
+  * a bullet point using "*"
 
-.. sourcecode::
+    - a sub-list using "-"
 
-  # Equivalent
+      + yet another sub-list
 
+    - another item
 
+**definition** lists (quickref__)
+  __ quickref.html#definition-lists
 
-.. code-block::
+  Unlike the other two, the definition lists consist of a term, and
+  the definition of that term.  The format of a definition list is::
 
-  # Equivalent
+    what
+      Definition lists associate a term with a definition.
 
+    *how*
+      The term is a one-line phrase, and the definition is one or more
+      paragraphs or body elements, indented relative to the term.
+      Blank lines are not allowed between term and definition.
 
+  Results in:
 
+  what
+    Definition lists associate a term with a definition.
 
-.. code-block::
+  *how*
+    The term is a one-line phrase, and the definition is one or more
+    paragraphs or body elements, indented relative to the term.
+    Blank lines are not allowed between term and definition.
 
-  very clean comments
-  what does this look like ? 
 
+Preformatting (code samples)
+----------------------------
+(quickref__)
 
+__ quickref.html#literal-blocks
 
+To just include a chunk of preformatted, never-to-be-fiddled-with
+text, finish the prior paragraph with "``::``".  The preformatted
+block is finished when the text falls back to the same indentation
+level as a paragraph prior to the preformatted block.  For example::
 
-|
-|
+  An example::
 
+      Whitespace, newlines, blank lines, and all kinds of markup
+        (like *this* or \this) is preserved by literal blocks.
+    Lookie here, I've dropped an indentation level
+    (but not far enough)
 
+  no more example
 
------
-Links
------
+Results in:
 
-Web addresses by themselves will auto link, like this: https://www.devdungeon.com
+  An example::
 
-You can also inline custom links: `Google search engine <https://www.google.com>`_
+      Whitespace, newlines, blank lines, and all kinds of markup
+        (like *this* or \this) is preserved by literal blocks.
+    Lookie here, I've dropped an indentation level
+    (but not far enough)
 
-This is a simple link_ to Google with the link defined separately.
+  no more example
 
-.. _link: https://www.google.com
+Note that if a paragraph consists only of "``::``", then it's removed
+from the output::
 
-This is a link to the `Python website`_.
+  ::
 
-.. _Python website: http://www.python.org/
+      This is preformatted text, and the
+      last "::" paragraph is removed
 
-This is a link back to `Section 1`_. You can link based off of the heading name
-within a document.
+Results in:
 
+::
 
+    This is preformatted text, and the
+    last "::" paragraph is removed
 
-|
-|
 
+Sections
+--------
 
+(quickref__)
 
------------------
-Lines/Transitions
------------------
+__ quickref.html#section-structure
 
+To break longer text up into sections, you use **section headers**.
+These are a single line of text (one or more words) with adornment: an
+underline alone, or an underline and an overline together, in dashes
+"``-----``", equals "``======``", tildes "``~~~~~~``" or any of the
+non-alphanumeric characters ``= - ` : ' " ~ ^ _ * + # < >`` that you
+feel comfortable with.  An underline-only adornment is distinct from
+an overline-and-underline adornment using the same character.  The
+underline/overline must be at least as long as the title text.  Be
+consistent, since all sections marked with the same adornment style
+are deemed to be at the same level::
 
+  Chapter 1 Title
+  ===============
 
+  Section 1.1 Title
+  -----------------
 
-=======
+  Subsection 1.1.1 Title
+  ~~~~~~~~~~~~~~~~~~~~~~
 
+  Section 1.2 Title
+  -----------------
 
+  Chapter 2 Title
+  ===============
 
+This results in the following structure, illustrated by simplified
+pseudo-XML::
 
+    <section>
+        <title>
+            Chapter 1 Title
+        <section>
+            <title>
+                Section 1.1 Title
+            <section>
+                <title>
+                    Subsection 1.1.1 Title
+        <section>
+            <title>
+                Section 1.2 Title
+    <section>
+        <title>
+            Chapter 2 Title
+
+(Pseudo-XML uses indentation for nesting and has no end-tags.  It's
+not possible to show actual processed output, as in the other
+examples, because sections cannot exist inside block quotes.  For a
+concrete example, compare the section structure of this document's
+source text and processed output.)
+
+Note that section headers are available as link targets, just using
+their name.  To link to the Lists_ heading, I write "``Lists_``".  If
+the heading has a space in it like `text styles`_, we need to quote
+the heading "```text styles`_``".
+
+
+Document Title / Subtitle
+`````````````````````````
+
+The title of the whole document is distinct from section titles and
+may be formatted somewhat differently (e.g. the HTML writer by default
+shows it as a centered heading).
+
+To indicate the document title in reStructuredText, use a unique adornment
+style at the beginning of the document.  To indicate the document subtitle,
+use another unique adornment style immediately after the document title.  For
+example::
+
+    ================
+     Document Title
+    ================
+    ----------
+     Subtitle
+    ----------
+
+    Section Title
+    =============
+
+    ...
+
+Note that "Document Title" and "Section Title" above both use equals
+signs, but are distict and unrelated styles.  The text of
+overline-and-underlined titles (but not underlined-only) may be inset
+for aesthetics.
+
+
+Images
 ------
-Tables
-------
 
-+--------+--------+--------+
-| Time   | Number | Value  |
-+========+========+========+
-| 12:00  | 42     | 2      |
-+--------+--------+--------+
-| 23:00  | 23     | 4      |
-+--------+--------+--------+
+(quickref__)
 
+__ quickref.html#directives
 
+To include an image in your document, you use the the ``image`` directive__.
+For example::
 
+  .. image:: images/biohazard.png
 
-.. Comments:
-   add this
-   add that
-   add more
-   add more here
+results in:
 
+.. image:: images/biohazard.png
 
+The ``images/biohazard.png`` part indicates the filename of the image
+you wish to appear in the document. There's no restriction placed on
+the image (format, size etc).  If the image is to appear in HTML and
+you wish to supply additional information, you may::
 
+  .. image:: images/biohazard.png
+     :height: 100
+     :width: 200
+     :scale: 50
+     :alt: alternate text
 
+See the full `image directive documentation`__ for more info.
 
-
-
-   You can also inline custom links: `Google search engine <https://www.google.com>`_
-
-  a link_ to the video about landing
-   .. _link: https://youtu.be/6bfxPxg9rqk
-
-  This is a simple link_ to Google with the link defined separately.
-  .. _link: https://www.google.com
+__ ../../ref/rst/directives.html
+__ ../../ref/rst/directives.html#images
 
 
-  This is a link to the `Python website`_.
-  .. _Python website: http://www.python.org/
+What Next?
+----------
 
-  This is a link back to `Section 1`_. You can link based off of the heading name
-  within a document.
+This primer introduces the most common features of reStructuredText,
+but there are a lot more to explore.  The `Quick reStructuredText`_
+user reference is a good place to go next.  For complete details, the
+`reStructuredText Markup Specification`_ is the place to go [#]_.
 
-  .. code:: python
-   import os
-   print(help(os))
+Users who have questions or need assistance with Docutils or
+reStructuredText should post a message to the Docutils-users_ mailing
+list.
 
+.. [#] If that relative link doesn't work, try the master document:
+   http://docutils.sourceforge.net/docs/ref/rst/restructuredtext.html.
 
-  
-
-
-
+.. _reStructuredText Markup Specification:
+   ../../ref/rst/restructuredtext.html
+.. _Docutils-users: ../mailing-lists.html#docutils-users
+.. _Docutils project web site: http://docutils.sourceforge.net/
