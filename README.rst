@@ -1,7 +1,7 @@
-A ReStructuredText Primer
+Data Mining
 =========================
 
-:Author: Richard Jones
+:Author: Tom Bresee
 :Version: $Revision: 5801 $
 :Copyright: This document has been placed in the public domain.
 
@@ -18,9 +18,11 @@ __
 .. _master quick reference:
    http://docutils.sourceforge.net/docs/user/rst/quickref.html
 
-.. Note:: This document is an informal introduction to
-   reStructuredText.  The `What Next?`_ section below has links to
-   further resources, including a formal reference.
+.. Note:: These are Tom-Bresee-Notes I can add here and no one can see
+   them at all. 
+   Add:  
+   Add:
+   Add:  
 
 
 Structure
