@@ -5,6 +5,8 @@ Data Mining
 :Version: $Revision: 5801 $
 :Topic: Data Mining specifics
 
+|
+
 .. contents::
 
 
@@ -24,15 +26,54 @@ __
    Add:
    Add:  
 
+|
+
+
+
+
+
+
+**Jupyter Notebooks ( < - - exciting part)**
+=========================================
+
+As progression is made step-by-step, I will upload pertinent jupyter notebooks.  This is the key to really understanding this complicated approach. 
+
+|
+
+Jupyter Notebook Links
+------------------------
+
+The following are working jupyter notebooks as I dive deeper into Apache Spark, Databricks, etc.  All raw .ipynb notebook files are contained under ENTER/working_notebooks repo folder.  Most of the links below are enabled via nbviewer to show the notebooks in html, to aid ease of viewing...
+
+
+|
+
+
+* `Databricks Overview notebook <https://rawcdn.githack.com/TomBresee/The_Spark_Genome_Project/4602f11ee09c4c08f8844f57ae6aaca9f9858470/ENTER/working_notebooks/overview_001_f.html>`_
+  — **Start Here**  
+
+
+|
+
+
+|
+
+
+* `Databricks 101 <https://nbviewer.jupyter.org/github/TomBresee/The_Spark_Genome_Project/blob/master/ENTER/notebooks/001-pyspark.ipynb>`_
+  — for introductory example of how to create RDD datasets and get familiar with the Databricks platform
+
+
+|
+
+
+
+
+
 
 Structure
 ---------
 
-From the **outset**, let me say that "Structured Text" is probably a bit
-of a misnomer.  It's more like "Relaxed Text" that uses certain
-consistent patterns.  These patterns are interpreted by a HTML
-converter to produce "Very Structured Text" that can be used by a web
-browser.
+From the 
 
 The most basic pattern recognised is a **paragraph** (quickref__).
 That's a chunk of text that is separated by blank lines (one is
