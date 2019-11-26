@@ -96,17 +96,6 @@ Why Apache Spark ?
 
 |
 
-
-
-Think big picture.  We need to change our perception on what we consider a LOT of data...
-
-
-
-
-|
-|
-|
-
 Our Approach
 ==============
 
@@ -118,17 +107,6 @@ Our Approach
 
 
 |
-
-
-Our Technical Approach
-========================
-
-|
-
-- **All input sequenced files will be .VCF format (or .BAM)**
-   - Standard file format for DNA sequenced files
-
-
 
 
 
@@ -156,21 +134,9 @@ The following are working jupyter notebooks as I dive deeper into Apache Spark, 
 
 
 
-* `Pain <https://nbviewer.jupyter.org/github/TomBresee/The_Spark_Genome_Project/blob/master/ENTER/working_notebooks/Hail%200.2%20Tutorial%20-%20Databricks.ipynb>`_
-  — the notebook that almost killed me
-
-  *  `html version <https://rawcdn.githack.com/TomBresee/The_Spark_Genome_Project/18102831c1efb315f88e75407d26efc2000928bd/ENTER/working_notebooks/Hail%200.2%20Tutorial%20-%20Databricks.html>`_
-
-
-
-|
-
-
 * `Databricks 101 <https://nbviewer.jupyter.org/github/TomBresee/The_Spark_Genome_Project/blob/master/ENTER/notebooks/001-pyspark.ipynb>`_
   — for introductory example of how to create RDD datasets and get familiar with the Databricks platform
 
-
-|
 
 
 |
@@ -234,41 +200,6 @@ Apache Spark
 * `Apache Spark Documentation <https://spark.apache.org/docs/latest/>`_
   — the main documentation link 
 
-
-* `Spark SQL DataFrames and Datasets Guide <https://spark.apache.org/docs/latest/sql-programming-guide.html>`_
-  — the detailed information about using SparkSQL
-
-
-
-* `Spark Python API Docs  <https://spark.apache.org/docs/latest/api/python/index.html>`_
-  — covers pyspark .methods and commands 
-
-
-
-* `Cluster Mode Overview   <https://spark.apache.org/docs/latest/cluster-overview.html>`_
-  — how Spark runs on clusters
-
-
-
-* `Gitbook Internals of Apache Spark   <https://jaceklaskowski.gitbooks.io/mastering-apache-spark/>`_
-  — really really good overview of how Apache Spark functions
-
-
-
-* `Gitbook Internals of Apache Spark SQL  <https://jaceklaskowski.gitbooks.io/mastering-spark-sql/>`_
-  — same author, but covering SparkSQL
-
-
-
-* `Github Apache Spark  <https://github.com/apache/spark>`_
-  — the main Github page for Apache Spark
-
-
-
-* `Github Spark Examples  <https://github.com/apache/spark/tree/master/examples/src/main>`_
-  — you can see specific python, scala, and r examples you can run 
-
-
 * `Hadoop <https://hadoop.apache.org/>`_
   — Hadoop Standard Library
 
@@ -290,35 +221,8 @@ Databricks
   — the main user manual for Databricks
 
 
-* `Forum for Questions <https://forums.databricks.com/index.html>`_
-  — questions and answers
-
-
-* `Dataframe Guide <https://docs.databricks.com/spark/latest/dataframes-datasets/index.html>`_
-  — covers dataframes, used extensively with genomics and sparksql 
-
-
-
-* `SQL Guide <https://docs.databricks.com/spark/latest/spark-sql/index.html>`_
-  — covers SQL language manual for databricks
-
-
-
-* `Delta Lake  <https://delta.io/>`_
-  — delta lake is an open-source storage layer that brings ACID transactions to Apache Spark workloads
-
-
 * `Github Delta Lake  <https://github.com/delta-io/delta>`_
   — github location
-
-
-* `Delta Lake Guide  <https://docs.databricks.com/delta/index.html>`_
-  — Delta Lake is an open source storage layer that brings reliability to data lakes. Delta Lake provides ACID transactions, scalable metadata handling, and unifies streaming and batch data processing. Delta Lake runs on top of your existing data lake and is fully compatible with Apache Spark APIs.
-
-
-
-* `Connecting BI Tools  <https://docs.databricks.com/user-guide/bi/jdbc-odbc-bi.html>`_
-  — JDBC/ODBC driver and connectivity 
 
 
 * `Connecting MySQL Workbench <https://docs.databricks.com/user-guide/bi/workbenchj.html>`_
@@ -331,10 +235,6 @@ Databricks
 
 * `Databricks Connect  <https://docs.azuredatabricks.net/user-guide/dev-tools/db-connect.html>`_
   — direct CLI access to the instance
-
-
-* `Databricks Supported Instance Types <https://databricks.com/product/aws-pricing/instance-types>`_
-  — lists the different types of VM instances possible 
 
 
 * `Spark Definitive Guide <https://github.com/databricks/Spark-The-Definitive-Guide>`_
@@ -387,12 +287,6 @@ Next Generation DNA Sequencing (NGS)
 
 * `Genetic Data VCF BAM FASTQ  <https://us.dantelabs.com/blogs/news/genetic-data-fastq-bam-and-vcf>`_
   — The big picture view of the file format options and their place in sequencing
-
-* `Hail <https://hail.is/>`_
-  — this is where it starts getting very complicated
-
-* `Big Data Genomics <http://bdgenomics.org/>`_
-  — Variant Calling with Cannoli, ADAM, Avocado, and DECA
 
 * `Databricks Unified Analytics Platform for Genomics <https://github.com/TomBresee/The_Spark_Genome_Project/raw/master/ENTER/txt_based_info/Unified_Analytics_Platform_for_Genomics_Databricks.pdf>`_
   — Blueprint data for new Databricks Genomics platform 
