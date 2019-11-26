@@ -95,6 +95,9 @@ Terms to Research
 * Co-occurrence analysis
 * Correlation Analysis
 * Causal Inference
+* Basket Data Analysis
+* Catalog Design
+* Search Engine Log Analysis
 
 
 
