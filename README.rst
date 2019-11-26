@@ -65,10 +65,13 @@ Book
 
 
 * `Ch 1 <https://ebookcentral-proquest-com.proxy.lib.umich.edu/lib/umichigan/detail.action?docID=729031>`_
- 
 
 
 
+* `Other Book <https://www-cambridge-org.proxy.lib.umich.edu/core/books/mining-of-massive-datasets/C1B37BA2CBB8361B94FDD1C6F4E47922#>`_
+  
+
+  
 |
 
 
