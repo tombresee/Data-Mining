@@ -1,11 +1,18 @@
 
 
 
+
 .. Comments:
    
-   add1
-   add2
-   add3
+
+   these are just comment where you can put whatever you want, and its cool no one can see ! 
+   
+
+
+   add1:  
+   add2:  
+   add3:
+
 
   ...................
   Author:  Tom Bresee
@@ -18,18 +25,21 @@
 
 
 
-"""""""""""""""""""""
-Python and Databases 
-"""""""""""""""""""""
+
+
+"""""""""""""
+Data Mining
+"""""""""""""
 
 |
 
 .. contents:: Overview
-   :depth: 3
+   :depth: 4
 
 
 |
 |
+
 
 
 
@@ -48,6 +58,12 @@ CAST
 -----
 
 |
+
+
+~~~~~~~~
+CAST
+~~~~~~~~
+
 
 * `Enter coursera course here <https://www.coursera.org/learn/python-databases/home/welcome>`_ — welcome to the course
   
@@ -122,6 +138,7 @@ abc
 =========
 Examples
 =========
+
 
 
 
