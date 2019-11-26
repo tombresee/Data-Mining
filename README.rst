@@ -41,15 +41,20 @@ Links
 ---------------
 
 
+* `Coursera Notebooks DM <https://cwinqhjr.coursera-apps.org/tree?>`_
 
 
 * `Gitbook Internals of Apache Spark   <https://jaceklaskowski.gitbooks.io/mastering-apache-spark/>`_
   — really really good overview of how Apache Spark functions
 
+
 * `Internet Map <https://internet-map.net/>`_
 
    
-*
+* tweets, pulse of the nation, us mood thoughout the day from twitter, sentiments
+  
+
+* 
 
 
 
