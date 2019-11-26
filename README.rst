@@ -44,15 +44,17 @@ Links
 
 
 
+
 * `Gitbook Internals of Apache Spark   <https://jaceklaskowski.gitbooks.io/mastering-apache-spark/>`_
   — really really good overview of how Apache Spark functions
 
 
+
 |
 
-OLAP
----------------
 
+OLAP - Online Analytical Processing
+--------------------------------------
 
 
 
@@ -79,16 +81,19 @@ Book
   
 
 
+
 |
 
 
 
-Add
+
+Terms to Research
 =====================
 
-* a
-* b
-* c
+* OLAP
+* Co-occurrence analysis
+* Correlation Analysis
+* Causal Inference
 
 
 
