@@ -5,7 +5,9 @@ Data Mining
 :Version: $Revision: 5801 $
 :Topic: Data Mining specifics
 
+
 |
+
 
 .. contents::
 
@@ -29,12 +31,6 @@ __
 |
 
 
-
-
-
-
-Links
-=========================================
 
 
 |
