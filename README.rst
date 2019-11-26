@@ -40,6 +40,8 @@ References
 Links
 ---------------
 
+* http://www.unicode.org/Public/emoji/12.1/emoji-data.txt
+  
 
 * `Coursera Notebooks DM <https://cwinqhjr.coursera-apps.org/tree?>`_
 
@@ -117,7 +119,8 @@ Terms to Research
 * Network Analysis - PageRank
 * Trend Analysis
 * Event Detection
-* 
+* Dengdrogram
+
 
 
 
