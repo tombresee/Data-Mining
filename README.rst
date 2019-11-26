@@ -33,20 +33,23 @@ __
 
 
 
-**Jupyter Notebooks ( < - - exciting part)**
+Links
 =========================================
 
-As progression is made step-by-step, I will upload pertinent jupyter notebooks.  This is the key to really understanding this complicated approach. 
 
 |
 
-Jupyter Notebook Links
+General Topic Links
 ------------------------
 
-The following are working jupyter notebooks as I dive deeper into Apache Spark, Databricks, etc.  All raw .ipynb notebook files are contained under ENTER/working_notebooks repo folder.  Most of the links below are enabled via nbviewer to show the notebooks in html, to aid ease of viewing...
-
 
 |
+
+General Topic Links
+~~~~~~~~~~~~~~~~~~~~
+
+
+
 
 
 * `Databricks Overview notebook <https://rawcdn.githack.com/TomBresee/The_Spark_Genome_Project/4602f11ee09c4c08f8844f57ae6aaca9f9858470/ENTER/working_notebooks/overview_001_f.html>`_
@@ -56,14 +59,30 @@ The following are working jupyter notebooks as I dive deeper into Apache Spark, 
 |
 
 
-|
-
-
 * `Databricks 101 <https://nbviewer.jupyter.org/github/TomBresee/The_Spark_Genome_Project/blob/master/ENTER/notebooks/001-pyspark.ipynb>`_
   — for introductory example of how to create RDD datasets and get familiar with the Databricks platform
 
 
+
+
 |
+
+|
+
+|
+
+|
+
+|
+
+
+
+
+
+
+
+
+
 
 
 
