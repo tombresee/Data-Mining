@@ -7,26 +7,6 @@ Title
 
 
 
-Subtitle
-----------
-
-
-
-.. Comments:
-   
-   these are just comment where you can put whatever you want, and its cool no one can see ! 
-   add1:  
-   add2:  
-   add3:
-
-  ...................
-  Author:  Tom Bresee
-  ...................
-
-
-
-
-
 |
 
 .. contents:: Overview
