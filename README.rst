@@ -48,6 +48,8 @@ Review
   
 * https://ucilnica.fri.uni-lj.si/mod/resource/view.php?id=27202
 
+* https://www.youtube.com/watch?v=3xQTJi2tqgk&list=PLt9Zf_aPaQ4K07I5QFHEu3rFqgzYwpsAr
+  
 
 |
 
