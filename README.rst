@@ -10,6 +10,7 @@ Data Mining
 |
 
 
+
 **What is this ?**  
 
 The following github repo contains detailed information about Data Mining
@@ -17,6 +18,7 @@ The following github repo contains detailed information about Data Mining
 
 |
 |
+
 
 
 
@@ -35,6 +37,7 @@ References
 
 
 |
+
 
 
 Links
@@ -60,6 +63,8 @@ Links
 
 
 
+
+
 |
 
 
@@ -69,6 +74,7 @@ OLAP - Online Analytical Processing
 
 
 |
+
 
 
 
@@ -88,6 +94,7 @@ Book
 
 * `Other Book <https://www-cambridge-org.proxy.lib.umich.edu/core/books/mining-of-massive-datasets/C1B37BA2CBB8361B94FDD1C6F4E47922#>`_
   
+
 
 
 
@@ -162,24 +169,8 @@ Terms to Research
 Notebooks
 =========================================
 
-As progression is made step-by-step, I will upload pertinent jupyter notebooks.  This is the key to really understanding this complicated approach. 
+As progression is made step-by-step, I will upload pertinent jupyter notebooks.  This is the key to really understanding this complicated approach.
 
-|
-
-Jupyter Notebook Links
-------------------------
-
-The following are working jupyter notebooks as I dive deeper into Apache Spark, Databricks, etc.  All raw .ipynb notebook files are contained under ENTER/working_notebooks repo folder.  Most of the links below are enabled via nbviewer to show the notebooks in html, to aid ease of viewing...
-
-
-|
-
-
-* `Databricks Overview notebook <https://rawcdn.githack.com/TomBresee/The_Spark_Genome_Project/4602f11ee09c4c08f8844f57ae6aaca9f9858470/ENTER/working_notebooks/overview_001_f.html>`_
-  — **Start Here**  
-
-
-|
 
 
 
@@ -187,7 +178,6 @@ The following are working jupyter notebooks as I dive deeper into Apache Spark, 
   — successful implementation of Hail 0.2 on the Databricks platform in Scala code  
 
 
-|
 
 |
 
@@ -204,8 +194,6 @@ These are bit more complex, include things like Delta Lake, etc.
 
 * `Databricks Overview notebook <https://rawcdn.githack.com/TomBresee/The_Spark_Genome_Project/4602f11ee09c4c08f8844f57ae6aaca9f9858470/ENTER/working_notebooks/overview_001_f.html>`_
   — **Start Here**  
-
-
 
 
 
@@ -228,14 +216,7 @@ Apache Spark
 
 
 * `Apache Spark Website <https://spark.apache.org/>`_
-  — the core website for Apache Spark 
-
-
-* `Apache Spark Documentation <https://spark.apache.org/docs/latest/>`_
-  — the main documentation link 
-
-* `Hadoop <https://hadoop.apache.org/>`_
-  — Hadoop Standard Library
+  — the core website for Apache Spark
 
 
 
@@ -309,8 +290,6 @@ Hail 0.2
   — core page for Hail
 
   
-* `Hail on AWS EMR  <https://github.com/hms-dbmi/hail-on-EMR>`_
-
 
 
 |
@@ -322,9 +301,6 @@ Next Generation DNA Sequencing (NGS)
 * `Genetic Data VCF BAM FASTQ  <https://us.dantelabs.com/blogs/news/genetic-data-fastq-bam-and-vcf>`_
   — The big picture view of the file format options and their place in sequencing
 
-* `Databricks Unified Analytics Platform for Genomics <https://github.com/TomBresee/The_Spark_Genome_Project/raw/master/ENTER/txt_based_info/Unified_Analytics_Platform_for_Genomics_Databricks.pdf>`_
-  — Blueprint data for new Databricks Genomics platform 
-
 
 
 |
@@ -332,12 +308,8 @@ Next Generation DNA Sequencing (NGS)
 
 
 
-
 Modify and Upload 
 -------------------
-
-
-* `error message  openCostinBytes  <https://stackoverflow.com/questions/49048212/how-to-set-spark-sql-files-conf-in-pyspark>`_
 
 
 
