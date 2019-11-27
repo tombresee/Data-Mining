@@ -40,6 +40,18 @@ References
 
 
 
+
+Review
+---------------
+
+* http://www.unicode.org/Public/emoji/12.1/emoji-data.txt
+  
+* https://ucilnica.fri.uni-lj.si/mod/resource/view.php?id=27202
+
+
+|
+
+
 Links
 ---------------
 
