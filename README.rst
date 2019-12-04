@@ -48,6 +48,11 @@ Math
   — Distance computations (scipy.spatial.distance)
 
 
+* `Scipy Distance Metrics <https://scikit-learn.org/stable/modules/metrics.html>`_
+  — ScikitLearn:  Pairwise metrics, Affinities and Kernels
+
+
+
 
 
 
