@@ -1,6 +1,5 @@
 
 
-
 Data Mining
 ###############
 
@@ -21,7 +20,6 @@ The following github repo contains detailed information about Data Mining
 
 
 
-
 .. contents::
 
 .. section-numbering::
@@ -29,6 +27,7 @@ The following github repo contains detailed information about Data Mining
 
 |
 |
+
 
 
 
@@ -41,20 +40,17 @@ References
 
 
 
-Review
+Math
 ---------------
+ 
 
-* Yelp Dataset
-  * https://www.yelp.com/dataset
+* `Scipy Distance Metrics <https://docs.scipy.org/doc/scipy/reference/spatial.distance.html>`_
+  — Distance computations (scipy.spatial.distance)
 
-* http://www.unicode.org/Public/emoji/12.1/emoji-data.txt
-  
-* https://ucilnica.fri.uni-lj.si/mod/resource/view.php?id=27202
 
-* https://www.youtube.com/watch?v=3xQTJi2tqgk&list=PLt9Zf_aPaQ4K07I5QFHEu3rFqgzYwpsAr
-  
-* https://www.youtube.com/watch?v=EBdJUyq1CG8
-  
+
+
+
 |
 
 
@@ -152,6 +148,25 @@ Terms to Research
 |
 |
 
+
+
+
+
+Review
+---------------
+
+* Yelp Dataset
+  * https://www.yelp.com/dataset
+
+* http://www.unicode.org/Public/emoji/12.1/emoji-data.txt
+  
+* https://ucilnica.fri.uni-lj.si/mod/resource/view.php?id=27202
+
+* https://www.youtube.com/watch?v=3xQTJi2tqgk&list=PLt9Zf_aPaQ4K07I5QFHEu3rFqgzYwpsAr
+  
+* https://www.youtube.com/watch?v=EBdJUyq1CG8
+  
+|
 
 
 
