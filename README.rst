@@ -39,48 +39,12 @@ References
 
 
 
-
-Math
----------------
-
-
-
-
-* https://www.youtube.com/watch?v=P5mlg91as1c  -  which is stanford SVD explaning how movie to concept connected 
-
-  
-* https://hadrienj.github.io/posts/Deep-Learning-Book-Series-2.8-Singular-Value-Decomposition/ - nice SVD 
-
-* `Deep Learning Mathematics  <https://github.com/hadrienj/deepLearningBook-Notes>`_
-  — extremely good github loc for all the linear algebra math you would ever need to know...
-
-
-* `SVD Explained <https://www.youtube.com/watch?v=Ls2TgGFfZnU>`_
-  — youtube video explaining SVD end to end
-
-
-
-* `Scipy Distance Metrics <https://docs.scipy.org/doc/scipy/reference/spatial.distance.html>`_
-  — Distance computations (scipy.spatial.distance)
-
-
-* `ScikitLearn Metrics <https://scikit-learn.org/stable/modules/metrics.html>`_
-  — ScikitLearn:  Pairwise metrics, Affinities and Kernels
-
-
-
-
-|
-
-
-
 Links
 ---------------
 
 
 * https://www.youtube.com/watch?v=xoA5v9AO7S0&list=PLLssT5z_DsK9JDLcT8T62VtzwyW9LNepV  -  Stanford entire course from the book, review this. Mining Massive Datasets compilation of all videos per chapter/topic
   
-
 
 * http://www.unicode.org/Public/emoji/12.1/emoji-data.txt
   
@@ -93,9 +57,7 @@ Links
      
 
 
-
 |
-
 
 
 
@@ -119,6 +81,42 @@ Book
 
 
 |
+
+
+
+
+Math
+---------------
+
+
+
+* https://www.youtube.com/watch?v=P5mlg91as1c  -  which is stanford SVD explaning how movie to concept connected 
+
+  
+* https://hadrienj.github.io/posts/Deep-Learning-Book-Series-2.8-Singular-Value-Decomposition/ - nice SVD 
+
+* `Deep Learning Mathematics  <https://github.com/hadrienj/deepLearningBook-Notes>`_
+  — extremely good github loc for all the linear algebra math you would ever need to know...
+
+
+* `SVD Explained <https://www.youtube.com/watch?v=Ls2TgGFfZnU>`_
+  — youtube video explaining SVD end to end
+
+
+* `Scipy Distance Metrics <https://docs.scipy.org/doc/scipy/reference/spatial.distance.html>`_
+  — Distance computations (scipy.spatial.distance)
+
+
+* `ScikitLearn Metrics <https://scikit-learn.org/stable/modules/metrics.html>`_
+  — ScikitLearn:  Pairwise metrics, Affinities and Kernels
+
+
+
+
+|
+
+
+
 
 
 Review
