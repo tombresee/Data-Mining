@@ -43,7 +43,10 @@ References
 Math
 ---------------
 
+* https://www.youtube.com/watch?v=P5mlg91as1c  -  which is stanford SVD explaning how movie to concept connected 
 
+  
+* https://hadrienj.github.io/posts/Deep-Learning-Book-Series-2.8-Singular-Value-Decomposition/ - nice SVD 
 
 * `Deep Learning Mathematics  <https://github.com/hadrienj/deepLearningBook-Notes>`_
   — extremely good github loc for all the linear algebra math you would ever need to know...
