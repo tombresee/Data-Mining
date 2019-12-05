@@ -88,7 +88,8 @@ Book
 Math
 ---------------
 
-
+* https://www.youtube.com/watch?v=5HNr_j6LmPc - the math of covariance 
+  
 
 * https://www.youtube.com/watch?v=P5mlg91as1c  -  which is stanford SVD explaning how movie to concept connected 
 
@@ -139,28 +140,12 @@ Review
 
 
 
-Terms to Research
-----------------------
+to Research, Watch, Add
+-------------------------------
 
-* OLAP
-* Association
-* Data Warehouse
-* Data Cubing 
-* Co-occurrence analysis
-* Correlation Analysis
-* Causal Inference
-* Basket Data Analysis
-* Catalog Design
-* Advertisement
-* Search Engine Log Analysis
-* Clustering 
-* Network Analysis and 'Community'
-* Topic Extraction
-* Ranking
-* Learning to Rank
-* Network Analysis - PageRank
-* Trend Analysis
-* Event Detection
-* Dengdrogram
+* http://ci.columbia.edu/ci/premba_test/c0331/s7/s7_5.html
+* https://www.youtube.com/watch?v=5HNr_j6LmPc
+* https://www.youtube.com/watch?v=xoA5v9AO7S0&list=PLLssT5z_DsK9JDLcT8T62VtzwyW9LNepV
+* 
   
 
