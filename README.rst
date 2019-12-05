@@ -43,6 +43,9 @@ References
 Math
 ---------------
 
+
+
+
 * https://www.youtube.com/watch?v=P5mlg91as1c  -  which is stanford SVD explaning how movie to concept connected 
 
   
@@ -73,6 +76,11 @@ Math
 
 Links
 ---------------
+
+
+* https://www.youtube.com/watch?v=xoA5v9AO7S0&list=PLLssT5z_DsK9JDLcT8T62VtzwyW9LNepV  -  Stanford entire course from the book, review this. Mining Massive Datasets compilation of all videos per chapter/topic
+  
+
 
 * http://www.unicode.org/Public/emoji/12.1/emoji-data.txt
   
