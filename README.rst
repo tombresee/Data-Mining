@@ -44,7 +44,8 @@ Math
 ---------------
  
 * `SVD Explained <https://www.youtube.com/watch?v=Ls2TgGFfZnU>`_
-  — match of SVD
+  — youtube video explaining SVD end to end
+
 
 
 * `Scipy Distance Metrics <https://docs.scipy.org/doc/scipy/reference/spatial.distance.html>`_
@@ -67,18 +68,12 @@ Links
 * http://www.unicode.org/Public/emoji/12.1/emoji-data.txt
   
 
-* `Coursera Notebooks DM <https://cwinqhjr.coursera-apps.org/tree?>`_
+* `Coursera Notebooks direct link <https://cwinqhjr.coursera-apps.org/tree?>`_
 
 
-* `Gitbook Internals of Apache Spark   <https://jaceklaskowski.gitbooks.io/mastering-apache-spark/>`_
-  — really really good overview of how Apache Spark functions
+* `The Internet Map <https://internet-map.net/>`_
 
-
-* `Internet Map <https://internet-map.net/>`_
-
-   
-* tweets, pulse of the nation, us mood thoughout the day from twitter, sentiments
-  
+     
 
 
 
