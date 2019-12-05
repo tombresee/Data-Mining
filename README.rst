@@ -45,10 +45,10 @@ Math
 
 
 
-* `Deep Learning Mathematics Explained <https://github.com/hadrienj/deepLearningBook-Notes>`_
+* `Deep Learning Mathematics  <https://github.com/hadrienj/deepLearningBook-Notes>`_
   — extremely good github loc for all the linear algebra math you would ever need to know...
 
-   
+
 * `SVD Explained <https://www.youtube.com/watch?v=Ls2TgGFfZnU>`_
   — youtube video explaining SVD end to end
 
