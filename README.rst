@@ -4,7 +4,6 @@ Data Mining
 ###############
 
 
-
 |
 |
 
@@ -35,6 +34,7 @@ References
 =============
 
 
+
 |
 
 
@@ -43,20 +43,22 @@ References
 Math
 ---------------
  
+* `SVD Explained <https://www.youtube.com/watch?v=Ls2TgGFfZnU>`_
+  — match of SVD
+
 
 * `Scipy Distance Metrics <https://docs.scipy.org/doc/scipy/reference/spatial.distance.html>`_
   — Distance computations (scipy.spatial.distance)
 
 
-* `Scipy Distance Metrics <https://scikit-learn.org/stable/modules/metrics.html>`_
+* `ScikitLearn Metrics <https://scikit-learn.org/stable/modules/metrics.html>`_
   — ScikitLearn:  Pairwise metrics, Affinities and Kernels
 
 
 
 
-
-
 |
+
 
 
 Links
@@ -77,18 +79,6 @@ Links
    
 * tweets, pulse of the nation, us mood thoughout the day from twitter, sentiments
   
-
-* 
-
-
-
-
-
-|
-
-
-OLAP - Online Analytical Processing
---------------------------------------
 
 
 
@@ -116,15 +106,31 @@ Book
 
 
 
+|
+
+
+Review
+---------------
+
+* Yelp Dataset
+  * https://www.yelp.com/dataset
+
+* http://www.unicode.org/Public/emoji/12.1/emoji-data.txt
+  
+* https://ucilnica.fri.uni-lj.si/mod/resource/view.php?id=27202
+
+* https://www.youtube.com/watch?v=3xQTJi2tqgk&list=PLt9Zf_aPaQ4K07I5QFHEu3rFqgzYwpsAr
+  
+* https://www.youtube.com/watch?v=EBdJUyq1CG8
+  
+
 
 |
 
 
 
-
-
 Terms to Research
-=====================
+----------------------
 
 * OLAP
 * Association
@@ -146,217 +152,5 @@ Terms to Research
 * Trend Analysis
 * Event Detection
 * Dengdrogram
-
-
-
-
-|
-|
-
-
-
-
-
-Review
----------------
-
-* Yelp Dataset
-  * https://www.yelp.com/dataset
-
-* http://www.unicode.org/Public/emoji/12.1/emoji-data.txt
   
-* https://ucilnica.fri.uni-lj.si/mod/resource/view.php?id=27202
-
-* https://www.youtube.com/watch?v=3xQTJi2tqgk&list=PLt9Zf_aPaQ4K07I5QFHEu3rFqgzYwpsAr
-  
-* https://www.youtube.com/watch?v=EBdJUyq1CG8
-  
-|
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-Notebooks
-=========================================
-
-As progression is made step-by-step, I will upload pertinent jupyter notebooks.  This is the key to really understanding this complicated approach.
-
-
-
-
-* `Hail running on Databricks Apache Spark written in Scala <https://nbviewer.jupyter.org/github/TomBresee/The_Spark_Genome_Project/blob/master/ENTER/working_notebooks/hail_databricks.ipynb>`_
-  — successful implementation of Hail 0.2 on the Databricks platform in Scala code  
-
-
-
-|
-
-
-Advanced Notebooks
-------------------------
-
-These are bit more complex, include things like Delta Lake, etc. 
-
-
-|
-
-
-
-* `Databricks Overview notebook <https://rawcdn.githack.com/TomBresee/The_Spark_Genome_Project/4602f11ee09c4c08f8844f57ae6aaca9f9858470/ENTER/working_notebooks/overview_001_f.html>`_
-  — **Start Here**  
-
-
-
-
-|
-|
-|
-
-
-
-References
-=============
-
-
-|
-
-
-Apache Spark
----------------
-
-
-* `Apache Spark Website <https://spark.apache.org/>`_
-  — the core website for Apache Spark
-
-
-
-|
-
-
-
-Databricks
--------------
-
-
-* `Documentation <https://docs.databricks.com/>`_
-  — the main documentation link for Databricks
-
-
-* `User Guide <https://docs.databricks.com/user-guide/index.html>`_
-  — the main user manual for Databricks
-
-
-* `Github Delta Lake  <https://github.com/delta-io/delta>`_
-  — github location
-
-
-* `Connecting MySQL Workbench <https://docs.databricks.com/user-guide/bi/workbenchj.html>`_
-  — Connecting org.apache.hive.jdbc.HiveDriver driver definition  
-
-
-* `Hipster Scala Example <https://databricks-prod-cloudfront.cloud.databricks.com/public/4027ec902e239c93eaaa8714f173bcfc/8497971343024764/53198984527781/2559267461126367/latest.html>`_
-  — Scala example with variant spark
-
-
-* `Databricks Connect  <https://docs.azuredatabricks.net/user-guide/dev-tools/db-connect.html>`_
-  — direct CLI access to the instance
-
-
-* `Spark Definitive Guide <https://github.com/databricks/Spark-The-Definitive-Guide>`_
-  — github location of the book `Spark - The Definitive Guide' that can also be run in Databricks via the DBFS location:  dbfs:/databricks-datasets/definitive-guide/data
-
-
-
-
-|
-
-Genomics
--------------
-
-
-* `Hail Scala Genomics ETL Tutorial <https://lamastex.github.io/scalable-data-science/sds/2/2/db/999_05_StudentProject_HailScalaGenomicsETLTutorial.html>`_
-  — Written by Dmytro Kryvokhyzha, excellent overview of using Databricks in Scala with Hail
-
-
-
-|
-
-Scala
---------
-
-
-* `Scala <https://www.scala-lang.org/>`_
-  — the main website for Scala.  There is no getting around it.  You want to push the envelope, you must learn Scala...
-
-
-
-|
-
-Hail 0.2
---------
-
-
-* `Hail Site <https://hail.is/>`_
-  — core page for Hail
-
-  
-
-
-|
-
-Next Generation DNA Sequencing (NGS)
----------------------------------------
-
-
-* `Genetic Data VCF BAM FASTQ  <https://us.dantelabs.com/blogs/news/genetic-data-fastq-bam-and-vcf>`_
-  — The big picture view of the file format options and their place in sequencing
-
-
-
-|
-
-
-
-
-Modify and Upload 
--------------------
-
-
-
-
-
-|
-|
-|
-|
-
-
 
