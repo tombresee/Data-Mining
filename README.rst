@@ -43,6 +43,8 @@ Links
 ---------------
 
 
+* https://scikit-learn.org/stable/modules/generated/sklearn.decomposition.PCA.html
+  
 * https://www.youtube.com/watch?v=xoA5v9AO7S0&list=PLLssT5z_DsK9JDLcT8T62VtzwyW9LNepV  -  Stanford entire course from the book, review this. Mining Massive Datasets compilation of all videos per chapter/topic
   
 
@@ -87,6 +89,9 @@ Book
 
 Math
 ---------------
+
+* https://scikit-learn.org/stable/modules/generated/sklearn.decomposition.PCA.html
+
 
 * https://www.youtube.com/watch?v=5HNr_j6LmPc - the math of covariance 
   
@@ -146,6 +151,18 @@ to Research, Watch, Add
 * http://ci.columbia.edu/ci/premba_test/c0331/s7/s7_5.html
 * https://www.youtube.com/watch?v=5HNr_j6LmPc
 * https://www.youtube.com/watch?v=xoA5v9AO7S0&list=PLLssT5z_DsK9JDLcT8T62VtzwyW9LNepV
+* https://www.youtube.com/watch?v=EMpJ_8hM94c
 * 
   
+
+
+|
+
+
+
+General Notes
+-------------------------------
+
+* 
+* 
 
