@@ -8,6 +8,7 @@ Data Mining
 |
 
 
+* https://www.coursera.org/learn/siads532/resources/BZDQK  resources to download files
 
 **What is this ?**  
 
