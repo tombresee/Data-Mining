@@ -43,6 +43,13 @@ Links
 ---------------
 
 
+
+* https://en.wikipedia.org/wiki/Levenshtein_distance
+
+
+* https://en.wikipedia.org/wiki/Wagner%E2%80%93Fischer_algorithm  Fischer alg
+  
+
 * https://scikit-learn.org/stable/modules/generated/sklearn.decomposition.PCA.html
   
 * https://www.youtube.com/watch?v=xoA5v9AO7S0&list=PLLssT5z_DsK9JDLcT8T62VtzwyW9LNepV  -  Stanford entire course from the book, review this. Mining Massive Datasets compilation of all videos per chapter/topic
